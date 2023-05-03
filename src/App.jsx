@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import AuthLayout from "./pages/AuthLayout"
 import FrontPage from "./pages/FrontPage"
-import Info from "./pages/Info"
 import Contact from "./pages/Contact"
+import Proyects from "./pages/Proyects"
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
         <Routes>
           <Route path='/' element={<AuthLayout/>}>
             <Route index element={<FrontPage/>}/>
-            <Route path='info' element={<Info/>} />
+            <Route path='proyects' element={<Proyects/>} />
             <Route path='contact' element={<Contact/>} />
           </Route>
         </Routes>
