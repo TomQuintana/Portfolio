@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import tom from '../assets/img/tom.jpeg'
 
 const FrontPage = () => {
