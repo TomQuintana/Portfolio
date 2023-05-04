@@ -43,8 +43,7 @@ const Contact = () => {
         </p>
         <CopyToClipboard text='tomquintana20@gmail.com'>
           <p 
-            className="bg-indigo-700 w-full py-3 rounded-xl text-white uppercase font-bold mt-5 hover:cursor-pointer hover:bg-indigo-800 
-            md:w-auto px-10"
+            className="bg-indigo-700 text-white font-mono rounded-xl text-center mt-2 uppercase hover:cursor-pointer font-bold w-3/4"
             onClick={() => setcopiedMail(true)} >
             Copy
           </p>
@@ -78,7 +77,7 @@ const Contact = () => {
         <p className="">
           {copiedPhone && 
             <span
-              className="bg-indigo-700 w-3/4 rounded-xl text-white text-center uppercase font-bold mt-5 hover:cursor-pointer hover:bg-indigo-800 
+              className="bg-indigo-500 w-3/4 rounded-xl text-white text-center uppercase font-bold hover:cursor-pointer hover:bg-indigo-800 
             md:w-auto px-10 mb-10"
           >Copied</span>}
         </p>
