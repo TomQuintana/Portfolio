@@ -17,7 +17,7 @@ return (
       <main className='container mx-auto md:grid md:grid-cols-2 mt-12 p-5 items-center w-8/12'>
         <Outlet />
       </main>
-      <footer className="md:flex justify-start mt-16">
+      <footer className="md:flex justify-start md:mt-16">
         <h1
           className="m-2 text-zinc-500 font-mono"
         >@ 2023 Tomas Quintana</h1>
