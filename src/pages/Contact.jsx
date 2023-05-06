@@ -25,6 +25,7 @@ const Contact = () => {
           alt="Github"/>
         <Link 
           className="text-center font-mono hover:bg-gray-100"
+          target="_blank"
           to="https://github.com/TomQuintana?tab=repositories"> <h1>Github</h1></Link> 
       </div>
       <div className="w-28 h-48">
@@ -34,6 +35,7 @@ const Contact = () => {
           alt="Linkedin"/>
         <Link 
           className="text-center font-mono hover:bg-gray-100"
+          target="_blank"
           to="https://www.linkedin.com/in/tomas-quintana-7391281b5/"> <h1>LinkedIn</h1></Link> 
       </div>
       <div className="w-28 h-44 mb-10">
