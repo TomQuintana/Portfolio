@@ -1,4 +1,5 @@
 import tom from '../assets/img/tom.jpeg'
+import tom2 from '../assets/img/tom2.jpg'
 
 const FrontPage = () => {
 
@@ -13,7 +14,7 @@ const FrontPage = () => {
       </div>
       <div>
         <img 
-          src={tom} 
+          src={tom2} 
           alt="" 
           className='w-3/4'
         />
