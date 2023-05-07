@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom"
 import { CopyToClipboard } from "react-copy-to-clipboard"
 import { useState } from "react"
-import GitHubIcon from "../assets/img/GitHubIcon.png"
-import telefonoVintage from "../assets/img/telefonoVintage.webp"
-import Gmail from "../assets/img/Gmail.jpeg"
-import Linkedin from "../assets/img/Linkedin.avif"
+import Gmail from "../assets/img/gmail96.png"
+import github from "../assets/img/github96.png"
+import linkedin from "../assets/img/linkedin96.png"
+import phone from "../assets/img/phone96.png"
 
 const Contact = () => {
 
@@ -21,7 +21,7 @@ const Contact = () => {
       <div className="w-28 h-24 mb-28">
         <img 
           className="rounded"
-          src={ GitHubIcon } 
+          src={ github } 
           alt="Github"/>
         <Link 
           className="text-center font-mono hover:bg-gray-100"
@@ -31,7 +31,7 @@ const Contact = () => {
       <div className="w-28 h-48">
         <img 
           className="rounded"
-          src={ Linkedin } 
+          src={ linkedin } 
           alt="Linkedin"/>
         <Link 
           className="text-center font-mono hover:bg-gray-100"
@@ -66,7 +66,7 @@ const Contact = () => {
       <div className="w-28 h-44 mb-10">
         <img 
           className="rounded h-15"
-          src={ telefonoVintage } 
+          src={ phone } 
           alt="Telefono"/>
         <p 
           className="font-mono text-xs"
