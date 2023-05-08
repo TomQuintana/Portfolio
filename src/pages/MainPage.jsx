@@ -20,7 +20,7 @@ return (
       <footer className="md:flex justify-start md:mt-16">
         <h1
           className="m-2 text-zinc-500 font-mono"
-        >@ 2023 Tomas Quintana</h1>
+        >© 2023 Tomas Quintana</h1>
       </footer>
     </>
   )
