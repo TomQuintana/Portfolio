@@ -4,19 +4,21 @@ const FrontPage = () => {
 
   return (
     <>
-      <div>
-        <h1 className='font-mono text-5xl w-72'>
-          Hi there - my name is Tom. 
-          I'm a <p className='text-sky-400'>Software Developer
-          </p>         
-        </h1>
-      </div>
-      <div>
-        <img 
-          src={tom} 
-          alt="" 
-          className='w-3/4'
-        />
+      <div className='container mx-auto md:grid md:grid-cols-2 p-5 items-center w-8/12'>
+        <div>
+          <h1 className='font-mono text-5xl w-72'>
+            Hi there - my name is Tom. 
+            I'm a <p className='text-sky-400'>Software Developer
+            </p>         
+          </h1>
+        </div>
+        <div>
+          <img 
+            src={tom} 
+            alt="" 
+            className='w-3/4'
+          />
+        </div>  
       </div>
     </>
   )
