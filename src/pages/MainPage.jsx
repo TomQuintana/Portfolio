@@ -4,7 +4,7 @@ import Contact from "./Contact"
 const AuthLayout = () => {
   return (
     <>
-      <nav className="md:container h-24 mt-2 ml-10 ">
+      <nav className="md:container h-24 mt-2 ml-5 flex justify-between">
         <div className="w-full flex justify-end">
           <Contact />
           <div className="w-full flex justify-end">
