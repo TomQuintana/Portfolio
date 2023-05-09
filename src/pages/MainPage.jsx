@@ -1,20 +1,29 @@
 import { Outlet, Link} from "react-router-dom"
+import Contact from "./Contact"
 
 const AuthLayout = () => {
-return (
+  return (
     <>
-      <nav className="md:container mt-2 flex justify-end ml-10 ">
-        <Link 
-          className="block text-center my-5 text-gray-500 px-2 hover:cursor-pointer hover:bg-gray-100 hover:rounded-3xl"
-          to="/">Home Page</Link>
-        <Link 
-          className="block text-center my-5 text-gray-500 px-2 hover:cursor-pointer hover:bg-gray-100 hover:rounded-3xl"
-          to="/proyects">Proyects</Link>
-        <Link 
-          className="block text-center my-5 text-gray-500 px-2 hover:cursor-pointer hover:bg-gray-100 hover:rounded-3xl"
-          to="/contact">Contact</Link>
-        </nav>
-      <main className='container mx-auto md:grid md:grid-cols-2 mt-12 p-5 items-center w-8/12'>
+      <nav className="md:container h-24 mt-2 ml-10 ">
+        <div className="w-full flex justify-end">
+          <Contact />
+          <div className="w-full flex justify-end">
+            <div >
+              <Link 
+                className="block text-center my-5 text-gray-500 px-2 hover:cursor-pointer hover:bg-gray-100 hover:rounded-3xl"
+                to="/">Home Page
+              </Link>  
+            </div>
+            <div >
+              <Link 
+                className="block text-center my-5 text-gray-500 px-2 hover:cursor-pointer hover:bg-gray-100 hover:rounded-3xl"
+                to="/proyects">Proyects
+              </Link>
+            </div>  
+          </div>
+        </div>
+      </nav>
+      <main>
         <Outlet />
       </main>
       <footer className="md:flex justify-start md:mt-16">
