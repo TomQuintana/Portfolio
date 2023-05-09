@@ -1,26 +1,14 @@
-import { Outlet, Link} from "react-router-dom"
+import { Outlet} from "react-router-dom"
 import Contact from "./Contact"
+import Pages from "./Pages"
 
 const AuthLayout = () => {
   return (
     <>
-      <nav className="md:container h-24 mt-2 ml-5 flex justify-between">
+      <nav className="h-24 mt-2 flex justify-between">
         <div className="w-full flex justify-end">
           <Contact />
-          <div className="w-full flex justify-end">
-            <div >
-              <Link 
-                className="block text-center my-5 text-gray-500 px-2 hover:cursor-pointer hover:bg-gray-100 hover:rounded-3xl"
-                to="/">Home Page
-              </Link>  
-            </div>
-            <div >
-              <Link 
-                className="block text-center my-5 text-gray-500 px-2 hover:cursor-pointer hover:bg-gray-100 hover:rounded-3xl"
-                to="/proyects">Proyects
-              </Link>
-            </div>  
-          </div>
+          <Pages />
         </div>
       </nav>
       <main>
