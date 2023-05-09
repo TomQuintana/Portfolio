@@ -6,7 +6,7 @@ const Contact = () => {
 
   return (
     <>
-      <div className="w-full flex justify-start gap-3 mt-2">
+      <div className="w-full flex justify-start gap-3 mt-2 ml-4">
           <div className="w-10 h-20 mb-28 content-center">
             <a href="https://github.com/TomQuintana?tab=repositories">
               <img 
