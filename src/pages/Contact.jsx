@@ -1,6 +1,6 @@
 import github from "../assets/img/github96.png"
 import linkedin from "../assets/img/linkedin96.png"
-import notas from "../assets/img/notas.png"
+import cv from '../assets/img/cv.png'
 
 const Contact = () => {
 
@@ -27,7 +27,7 @@ const Contact = () => {
             <a href="https://dull-barge-ad0.notion.site/CV-Tomas-Quintana-e7c04d26a4374fdd9b9ff881658a0332">
               <img 
                 className="rounded hover:bg-gray-200"
-                src={ notas } 
+                src={ cv } 
                 alt="Github"/>
             </a>
           </div>
