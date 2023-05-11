@@ -2,7 +2,7 @@
 export const AboutMe = () => {
   return (
     <>
-      <p className="text-center mb-10 font-mono text-4xl md:w-2/6">
+      <p className="text-center mb-10 font-mono text-4xl w-full">
         A little of {''}
         <span className="text-sky-400 font-bold">Me</span>
       </p>

@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <>
       <div className="w-full flex justify-start gap-3 mt-2 ml-4">
-          <div className="w-10 h-20 mb-28 content-center">
+          <div className="w-8 h-16 xl:mb-28 content-center xl:w-10 xl:h-20">
             <a href="https://github.com/TomQuintana?tab=repositories">
               <img 
                 className="rounded hover:bg-gray-200"
@@ -15,7 +15,7 @@ const Contact = () => {
                 alt="Github"/>
             </a>
           </div>
-          <div className="w-10 h-20 mb-28 content-center">
+          <div className="w-8 h-16 xl:mb-28 content-center xl:w-10 xl:h-20">
             <a href="https://www.linkedin.com/in/tomas-quintana-7391281b5/">
               <img 
                 className="rounded hover:bg-gray-200"
@@ -23,7 +23,7 @@ const Contact = () => {
                 alt="linkedin"/>
             </a>
           </div>
-          <div className="w-10 h-20 mb-28 content-center">
+          <div className="w-8 h-16 xl:mb-28 content-center xl:w-10 xl:h-20">
             <a href="https://dull-barge-ad0.notion.site/CV-Tomas-Quintana-e7c04d26a4374fdd9b9ff881658a0332">
               <img 
                 className="rounded hover:bg-gray-200"
