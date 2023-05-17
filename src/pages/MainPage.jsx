@@ -5,7 +5,7 @@ import Pages from "./Pages"
 const AuthLayout = () => {
   return (
     <>
-      <nav className="h-24 mt-2 flex justify-between">
+      <nav className="md:h-16 flex justify-between">
         <div className="w-full flex justify-end">
           <Contact />
           <Pages />
@@ -14,7 +14,7 @@ const AuthLayout = () => {
       <main>
         <Outlet />
       </main>
-      <footer className="md:flex justify-start md:mt-16">
+      <footer className="md:flex justify-start">
         <h1
           className="m-2 text-zinc-500 font-mono"
         >© 2023 Tomas Quintana</h1>

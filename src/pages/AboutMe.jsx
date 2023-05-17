@@ -2,13 +2,13 @@
 export const AboutMe = () => {
   return (
     <>
-      <p className="text-center mb-10 font-mono text-4xl w-full">
+      <p className="text-center mb-5 md:mb-10 font-mono text-4xl w-full">
         A little of {''}
         <span className="text-sky-400 font-bold">Me</span>
       </p>
       <div className="flex justify-center">
       <form
-        className="bg-white py-10 px-5 mb-10 lg:mb-0 shadow-md rounded-md w-3/6 items-center flex justify-center"
+        className="bg-white  mb-10 lg:mb-0 shadow-md rounded-md w-4/5 md:w-3/6 items-center flex justify-center"
       >
         <div className="mb-5 font-mono text-xl text-center">
             <h1 className="text-center font-mono text-xl">
