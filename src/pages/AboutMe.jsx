@@ -1,10 +1,14 @@
+import { useTranslation } from 'react-i18next';
 
 export const AboutMe = () => {
+
+  const { t } = useTranslation();
+
   return (
     <>
       <p className="text-center mb-5 md:mb-10 font-mono text-4xl w-full">
-        A little of {''}
-        <span className="text-sky-400 font-bold">Me</span>
+        {t('aLittle')} {''}
+        <span className="text-sky-400 font-bold">{t('me')}</span>
       </p>
       <div className="flex justify-center">
       <form
@@ -12,28 +16,32 @@ export const AboutMe = () => {
       >
         <div className="mb-5 font-mono text-xl text-center">
             <h1 className="text-center font-mono text-xl">
-              Hello! My name is Tomas Quintana
+              {t('hello')}
             </h1>
             <br/>
-            <p className="font-mono text-xl">I am a young man of 24 years living in Buenos Aires📍</p>
-            <br/>
-            <p>Worked as a freelance and in a company called Gojiraf</p>
-            <br/>
-            <p>Like working in a team, having new challenges and being able to implement what I learn</p>
+            <p className="font-mono text-xl">
+              {t('ImYoung')}
+              </p>
             <br/>
             <p>
-              I have experience in the following technologies - TypeScript, NodeJs, ReactJs, Javascript, Lambdas AWS, SQS, Loopback, Jest, Mocha
+            {t('worked')}
+              </p>
+            <br/>
+            <p>{t('like')}</p>
+            <br/>
+            <p>
+              {t('stack')}
               <br/>
             </p>
             <br/>
-            <p>For more information you can find my cv in the upper left but anyway I attach it below {''}
+            <p>{t('cv')} {''}
               <a 
                 className="font-bold text-indigo-600 hover:bg-gray-200 hover: cursor-pointer"
-                href="https://dull-barge-ad0.notion.site/CV-Tomas-Quintana-e7c04d26a4374fdd9b9ff881658a0332">CV</a>
+                href="https://dull-barge-ad0.notion.site/CV-Tomas-Quintana-e7c04d26a4374fdd9b9ff881658a0332">{t('cvLink')}</a>
             </p>
             <br/>
             <br/>
-            <p>Thanks for the time, have a good day!😊</p>
+            <p>{t('thanks')}</p>
           </div>
       </form>
       </div>

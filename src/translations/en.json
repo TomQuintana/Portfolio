@@ -1,0 +1,23 @@
+{
+  "welcome": "Welcome",
+  "hi": "Hi there - my name is Tom." ,
+  "Im": "I'm a",
+  "developer": "Software Developer",
+  "homePage":"Home Page",
+  "projectys": "Projects",
+  "aboutMe": "About Me",
+  "aLittle" : "A little of",
+  "me": "Me",
+  "hello": "Hello! My name is Tomas Quintana",
+  "ImYoung": "I am a young man of 24 years living in Buenos Aires📍",
+  "worked":"Worked as a freelance and in a company called Gojiraf",
+  "like": "Like working in a team, having new challenges and being able to implement what I learn",
+  "stack": "I have experience in the following technologies - TypeScript, NodeJs, ReactJs, Javascript, Lambdas AWS, SQS, Loopback, Jest, Mocha",
+  "cv": "For more information you can find my cv in the upper left but anyway I attach it below",
+  "cvLink": "CV",
+  "thanks": "Thanks for the time, have a good day!😊",
+  "mealProject": "Meal Management Server"
+}
+
+
+
