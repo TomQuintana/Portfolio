@@ -1,14 +1,18 @@
+import { useState } from 'react';
 import tom from '../assets/img/tom.jpeg'
+import { useTranslation } from 'react-i18next';
 
 const FrontPage = () => {
 
+  const { t } = useTranslation();
+
   return (
     <>
-      <div className='container mx-auto mb-36 md:grid md:grid-cols-2 p-5 items-center w-8/12'>
+     <div className='container mx-auto mb-36 md:grid md:grid-cols-2 p-5 items-center w-8/12'>
         <div className='flex justify-center'>
-          <h1 className='font-mono text-4xl md:text-5xl w-72'>
-            Hi there - my name is Tom. 
-            I'm a <p className='text-sky-400'>Software Developer
+          <h1 className='font-mono text-4xl md:text-6xl w-80'>
+            {t('hi')}
+            {t('Im')}<p className='text-sky-400'>{t('developer')}
             </p>         
           </h1>
         </div>

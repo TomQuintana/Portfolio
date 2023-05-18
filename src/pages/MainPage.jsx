@@ -1,6 +1,7 @@
 import { Outlet} from "react-router-dom"
 import Contact from "./Contact"
 import Pages from "./Pages"
+import TranslateSelect from "../Component/Translate"
 
 const AuthLayout = () => {
   return (
@@ -11,6 +12,9 @@ const AuthLayout = () => {
           <Pages />
         </div>
       </nav>
+      <div className="">
+        <TranslateSelect />
+      </div>
       <main>
         <Outlet />
       </main>

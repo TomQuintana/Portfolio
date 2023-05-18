@@ -1,9 +1,11 @@
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next';
 import galleta from '../assets/img/galleta.jpeg'
 import logoCocch from '../assets/img/logotipo.jpeg'
 import portfolio from '../assets/img/portfolio.webp'
 
 const Proyects = () => {
+  const { t } = useTranslation();
   return (
     <>
       <div className='w-full mx-36 md:grid md:grid-cols-3 mt-12 p-5 mb-36'>
@@ -18,7 +20,7 @@ const Proyects = () => {
             target="_blank"
             to='https://github.com/TomQuintana/MiloComidas'
           >
-            Meal Management Server
+            {t('mealProject')}
           </Link>
           <div className='flex justify-around mt-8'>
             <button className='w-24 p-2 bg-indigo-500 text-white uppercase rounded-xl hover:bg-indigo-600'>
