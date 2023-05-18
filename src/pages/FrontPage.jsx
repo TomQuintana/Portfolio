@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import tom from '../assets/img/tom.jpeg'
 import { useTranslation } from 'react-i18next';
 
