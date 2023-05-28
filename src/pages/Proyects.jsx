@@ -102,7 +102,7 @@ const Proyects = () => {
             to='https://github.com/TomQuintana/ClimaApp.git'
           >
             <h1 className='mt-8'>
-              Waeather App
+              Weather App
             </h1>
           </Link>
           <div className='flex justify-around mt-10'>
