@@ -3,6 +3,7 @@ import FrontPage from "./pages/FrontPage"
 import Proyects from "./pages/Proyects"
 import MainPage from "./pages/MainPage"
 import { AboutMe } from "./pages/AboutMe"
+import CV from "./pages/cv"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
             <Route index element={<FrontPage/>}/>
             <Route path='proyects' element={<Proyects/>} />
             <Route path='about-me' element={<AboutMe/>} />
+            <Route path='cv' element={<CV/>} />
           </Route>
         </Routes>
       </BrowserRouter>

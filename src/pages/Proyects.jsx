@@ -4,6 +4,7 @@ import galleta from '../assets/img/galleta.jpeg'
 import logoCocch from '../assets/img/logotipo.jpeg'
 import portfolio from '../assets/img/portfolio.webp'
 import weather from '../assets/img/weather.webp'
+import blockchainLogo from '../assets/img/blockchain.png'
 
 const Proyects = () => {
   const { t } = useTranslation();
@@ -38,21 +39,21 @@ const Proyects = () => {
         >
           <img
             className='mb-6 h-36 w-64'
-            src={logoCocch} alt="MiloComidas" />
+            src={blockchainLogo} alt="MiloComidas" />
           <Link
             className='text-xl hover:cursor-pointer'
             target="_blank"
-            to='https://github.com/TomQuintana/Project-cocchautos'
+            to='https://github.com/TomQuintana/Cryptocurrency-Quote'
           >
             <h1 className='mt-8'>
-              Cocchautos Detailing
+              Crytocurrency Quote
             </h1>
           </Link>
           <div className='flex justify-around mt-10'>
             <button className='w-24 p-2 bg-indigo-500 text-white uppercase rounded-xl hover:bg-indigo-600 mt-5'>
               <Link
                 target="_blank"
-                to='https://cocchautos-page.vercel.app/'
+                to='https://cryptocurrency-quote-three.vercel.app/'
               >website
               </Link>
             </button>
@@ -110,6 +111,38 @@ const Proyects = () => {
               <Link
                 target="_blank"
                 to='https://github.com/TomQuintana/ClimaApp.git'
+              >code
+              </Link>
+            </button>
+          </div>
+        </div>
+        <div 
+          className="w-64 h-96 font-mono mb-16 border-2 border-gray-200 text-center shadow-lg hover:border-gray-500 hover:shadow-lg items-center"
+        >
+          <img
+            className='mb-6 h-36 w-64'
+            src={logoCocch} alt="MiloComidas" />
+          <Link
+            className='text-xl hover:cursor-pointer'
+            target="_blank"
+            to='https://github.com/TomQuintana/Project-cocchautos'
+          >
+            <h1 className='mt-8'>
+              Cocchautos Detailing
+            </h1>
+          </Link>
+          <div className='flex justify-around mt-10'>
+            <button className='w-24 p-2 bg-indigo-500 text-white uppercase rounded-xl hover:bg-indigo-600 mt-5'>
+              <Link
+                target="_blank"
+                to='https://cocchautos-page.vercel.app/'
+              >website
+              </Link>
+            </button>
+            <button className='w-24 p-2 bg-indigo-500 text-white uppercase rounded-xl hover:bg-indigo-600 mt-5'>
+              <Link
+                target="_blank"
+                to='https://github.com/TomQuintana/Project-cocchautos'
               >code
               </Link>
             </button>
