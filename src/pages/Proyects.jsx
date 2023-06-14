@@ -60,7 +60,7 @@ const Proyects = () => {
             <button className='w-24 p-2 bg-indigo-500 text-white uppercase rounded-xl hover:bg-indigo-600 mt-5'>
               <Link
                 target="_blank"
-                to='https://github.com/TomQuintana/Project-cocchautos'
+                to='https://github.com/TomQuintana/Cryptocurrency-Quote'
               >code
               </Link>
             </button>
