@@ -1,9 +1,15 @@
 import i18n from '../translations/i18';
+import { useState } from 'react';
+import iconEn from '../assets/img/iconsUsa.png'
+import iconEs from '../assets/img/iconSpain.png'
 
 const TranslateSelect = () => {
 
+  const [language, setLanguage] = useState('en')
+
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng.target.value);
+    setLanguage(lng.target.value)
   };
   return (
     <>
@@ -17,9 +23,21 @@ const TranslateSelect = () => {
           >EN</option>
           <option value="es">ES</option>
         </select>
+        <div>
+          {language == 'en'? 
+            <img 
+              src={iconEn} 
+              alt="" 
+              className='w-44 md:w-3/4 rounded-2xl'
+            /> :  
+            <img 
+              src={iconEs} 
+              alt="" 
+              className='w-44 md:w-3/4 rounded-2xl'
+            />}
+        </div>
       </div>
     </>
-     
   )
 }
 

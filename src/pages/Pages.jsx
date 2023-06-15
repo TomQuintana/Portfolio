@@ -17,7 +17,7 @@ const Pages = () => {
         <div >
           <Link 
             className="block text-center my-5 text-gray-500 px-2 mr-1 hover:cursor-pointer hover:bg-gray-100 hover:rounded-3xl"
-            to="/proyects">{t('projects')}
+            to="/proyects">{t('project')}
           </Link>
         </div>  
         <div >
