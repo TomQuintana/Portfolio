@@ -24,7 +24,7 @@ const Contact = () => {
             </a>
           </div>
           <div className="w-8 h-16 xl:mb-28 content-center xl:w-10 xl:h-20">
-            <a href="http://localhost:5173/cv">
+            <a href="https://dull-barge-ad0.notion.site/CV-Tomas-Quintana-80e3b3b6fe6c44289764a0dfb542f674">
               <img 
                 className="rounded hover:bg-gray-200"
                 src={ cv } 

@@ -1,8 +1,10 @@
+import i18n from 'i18next';
 import tom from '../assets/img/tom.jpeg'
 import { useTranslation } from 'react-i18next';
 
 const Cv = () => {
 
+  console.log(i18n.language)
   const { t } = useTranslation();
   return (
     <>
