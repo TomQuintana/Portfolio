@@ -13,10 +13,10 @@ i18n.use(initReactI18next).init({
       translation: translationES,
     },
   },
-  lng: 'en', // Idioma predeterminado
-  fallbackLng: 'en', // Idioma de respaldo en caso de que la traducción no esté disponible
+  lng: 'en', 
+  fallbackLng: 'en', 
   interpolation: {
-    escapeValue: false, // Permite usar HTML en las traducciones
+    escapeValue: false, 
   },
 });
 
