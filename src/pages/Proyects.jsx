@@ -8,86 +8,66 @@ const Proyects = () => {
   const { t } = useTranslation();
   return (
     <>
-      <div className='w-full mx-36 md:grid md:grid-cols-3 mt-12 p-5 mb-36'>
-        <div 
-          className="w-64 h-96 font-mono mb-16 border-2 border-gray-200 text-center shadow-lg hover:border-gray-500 hover:shadow-lg items-center"
-        >
-          <img
-            className='mb-8 h-36 w-64'
-            src={galleta} alt="MiloComidas" />
-          <Link
-            className='text-xl hover:cursor-pointer'
-            target="_blank"
-            to='https://github.com/TomQuintana/MiloComidas'
-          >
-            {t('mealProject')}
-          </Link>
+      <div className='w-full mx-28 md:grid md:grid-cols-3 mt-12 p-5 mb-36 '>
+        <div className='w-72 h-96 grid grid-cols-1 bg-gray-50 shadow-2xl rounded-2xl transition-transform duration-300 group-hover:scale-110'>
+          <div className='flex justify-center items-center'>
+            <img
+            className='mb-8 h-36 w-52 mt-3 rounded-sm shadow-sm'
+            src={galleta} alt="MiloComidas"/>
+          </div>
+          <div className='text-center font-mono'>
+            <h1 className='font-mono text-xl'>Meal Management</h1>
+            <h2>Proyect for control your food stock</h2>
+          </div>
           <div className='flex justify-around mt-8'>
-            <button className='w-24 p-2 bg-indigo-500 text-white uppercase rounded-xl hover:bg-indigo-600'>
+            <button className='w-24 p-1 bg-indigo-500 text-white uppercase rounded-xl hover:bg-indigo-600 mb-5'>
               <Link
                 target="_blank"
-                to='https://github.com/TomQuintana/MiloComidas'
+                to='https://github.com/TomQuintana/Meal-Management'
               >code
               </Link>
             </button>
-          </div>
+          </div>        
         </div>
-        <div 
-          className="w-64 h-96 font-mono mb-16 border-2 border-gray-200 text-center shadow-lg hover:border-gray-500 hover:shadow-lg items-center"
-        >
-          <img
-            className='mb-6 h-36 w-64'
-            src={blockchainLogo} alt="MiloComidas" />
-          <Link
-            className='text-xl hover:cursor-pointer'
-            target="_blank"
-            to='https://github.com/TomQuintana/Cryptocurrency-Quote'
-          >
-            <h1 className='mt-8'>
-              Crytocurrency Quote
-            </h1>
-          </Link>
-          <div className='flex justify-around mt-10'>
-            <button className='w-24 p-2 bg-indigo-500 text-white uppercase rounded-xl hover:bg-indigo-600 mt-5'>
+        <div className='w-72 h-96 grid grid-cols-1 bg-gray-50 shadow-2xl rounded-2xl transition-transform duration-300 group-hover:scale-110'>
+          <div className='flex justify-center items-center'>
+            <img
+            className='mb-8 h-36 w-52 mt-3 rounded-sm shadow-sm'
+            src={weather} alt="MiloComidas"/>
+          </div>
+          <div className='text-center font-mono'>
+            <h1 className='font-mono text-xl'>Weather App</h1>
+            <h2>Terminal App for check Weather</h2>
+          </div>
+          <div className='flex justify-around mt-8'>
+            <button className='w-24 p-1 bg-indigo-500 text-white uppercase rounded-xl hover:bg-indigo-600 mb-5'>
               <Link
                 target="_blank"
-                to='https://cryptocurrency-quote-three.vercel.app/'
-              >website
+                to='https://github.com/TomQuintana/Weather-App'
+              >code
               </Link>
             </button>
-            <button className='w-24 p-2 bg-indigo-500 text-white uppercase rounded-xl hover:bg-indigo-600 mt-5'>
+          </div>        
+        </div>
+        <div className='w-72 h-96 grid grid-cols-1 bg-gray-50 shadow-2xl rounded-2xl transition-transform duration-300 group-hover:scale-110'>
+          <div className='flex justify-center items-center'>
+            <img
+            className='mb-8 h-36 w-52 mt-3 rounded-sm shadow-sm'
+            src={blockchainLogo} alt="MiloComidas"/>
+          </div>
+          <div className='text-center font-mono'>
+            <h1 className='font-mono text-xl'>Crypto Currency</h1>
+            <h2>Project to consult the exchange of cryptocurrencies</h2>
+          </div>
+          <div className='flex justify-around mt-8'>
+            <button className='w-24 p-1 bg-indigo-500 text-white uppercase rounded-xl hover:bg-indigo-600 mb-5'>
               <Link
                 target="_blank"
                 to='https://github.com/TomQuintana/Cryptocurrency-Quote'
               >code
               </Link>
             </button>
-          </div>
-        </div>
-                <div 
-          className="w-64 h-96 font-mono mb-16 border-2 border-gray-200 text-center shadow-lg hover:border-gray-500 hover:shadow-lg items-center"
-        >
-          <img
-            className='mb-6 h-36 w-64'
-            src={weather} alt="Clima App" />
-          <Link
-            className='text-xl hover:cursor-pointer'
-            target="_blank"
-            to='https://github.com/TomQuintana/ClimaApp.git'
-          >
-            <h1 className='mt-8'>
-              Weather App
-            </h1>
-          </Link>
-          <div className='flex justify-around mt-10'>
-            <button className='w-24 p-2 bg-indigo-500 text-white uppercase rounded-xl hover:bg-indigo-600 mt-5'>
-              <Link
-                target="_blank"
-                to='https://github.com/TomQuintana/ClimaApp.git'
-              >code
-              </Link>
-            </button>
-          </div>
+          </div>        
         </div>
       </div>
     </>
