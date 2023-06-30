@@ -1,7 +1,12 @@
 import { useTranslation } from 'react-i18next';
+import logoJS from '../img/icons8-js-96.png'
+import logoTS from '../img/icons8-typescript-96.png'
+import logoPostgres from '../img/icons8-postgre-sql-a-free-and-open-source-relational-database-management-system-96.png'
+import logoNode from '../img/icons8-nodejs-96 (1).png'
+import logoMongo from '../img/icons8-mongodb-96.png'
+import logoReact from '../img/icons8-reaccionar-80.png'
 
 export const AboutMe = () => {
-
   const { t } = useTranslation();
 
   return (
@@ -30,8 +35,33 @@ export const AboutMe = () => {
             <p>{t('like')}</p>
             <br/>
             <p>
-              {t('stack')}
-              <br/>
+              {t('stack')}  
+              <div className='flex justify-center gap-8 mt-5'>
+                <img 
+                  className="rounded hover:bg-gray-200"
+                  src={ logoJS} 
+                  alt="Github"/>
+                <img 
+                  className="rounded hover:bg-gray-200"
+                  src={ logoTS} 
+                  alt="Github"/>
+                <img 
+                  className="rounded hover:bg-gray-200"
+                  src={ logoReact} 
+                  alt="Github"/>
+                <img 
+                  className="rounded hover:bg-gray-200"
+                  src={ logoNode} 
+                  alt="Github"/>
+                <img 
+                  className="rounded hover:bg-gray-200"
+                  src={ logoMongo} 
+                  alt="Github"/>
+                <img 
+                  className="rounded hover:bg-gray-200"
+                  src={ logoPostgres} 
+                  alt="Github"/>
+              </div>
             </p>
             <br/>
             <p>{t('cv')} {''}
