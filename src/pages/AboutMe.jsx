@@ -36,7 +36,7 @@ export const AboutMe = () => {
             <br/>
             <p>
               {t('stack')}  
-              <div className='flex justify-center gap-8 mt-5'>
+              <div className='grid grid-cols-2 items-baseline md:flex justify-center md:gap-8 mt-5 ml-20 md:ml-0'>
                 <img 
                   className="rounded hover:bg-gray-200"
                   src={ logoJS} 
@@ -63,13 +63,6 @@ export const AboutMe = () => {
                   alt="Github"/>
               </div>
             </p>
-            <br/>
-            <p>{t('cv')} {''}
-              <a 
-                className="font-bold text-indigo-600 hover:bg-gray-200 hover: cursor-pointer"
-                href="https://dull-barge-ad0.notion.site/CV-Tomas-Quintana-e7c04d26a4374fdd9b9ff881658a0332">{t('cvLink')}</a>
-            </p>
-            <br/>
             <br/>
             <p>{t('thanks')}</p>
           </div>
