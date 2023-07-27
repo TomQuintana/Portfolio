@@ -7,7 +7,7 @@ const FrontPage = () => {
 
   return (
     <>
-     <div className='container mx-auto mb-36 md:grid md:grid-cols-2 p-5 items-center w-8/12 mt-10'>
+     <div className='container mx-auto mb-28 md:grid md:grid-cols-2 p-5 items-center w-8/12 mt-10'>
         <div className='flex justify-center mt-6 mr-16'>
           <h1 className='font-mono text-4xl md:text-5xl w-80'>
             {t('hi')}
