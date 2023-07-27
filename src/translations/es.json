@@ -5,17 +5,22 @@
   "hi": "Hola, mi nombre es Tom.", 
   "Im": "Soy",
   "developer": "Desarrollador de Software",
-  "homePage":"Pagina Principal",
+  "homePage":"Inicio",
   "project": "Proyectos",
   "aboutMe": "Sobre Mi",
   "hello": "Hola! Me llamo Tomas Quintana",
   "ImYoung": "Tengo 24 años y soy de Buenos Aires📍",
-  "worked":"Trabaje en una empresa llamada Gojiraf live shopping en donde con el equipo de integraciones y core generamos integraciones con distintos ecommerce y manteniamos el core de la aplicacion",
+  "worked":"Trabaje en una empresa llamada Gojiraf live shopping en donde me desempene como desarrollador Backend. Junto al equipo de integraciones y core generamos integraciones con distintos ecommerce y manteniamos el core de la aplicacion",
   "like": "Me gusta trabajar en equipo, tener nuevos retos y poder poner en práctica lo que aprendo",
   "stack": "Cuento con experiencia en las siguientes tecnologías ",
-  "cv": "Para más información podes encontrar mi cv en la parte superior izquierda pero de todos modos lo adjunto a continuación",
   "cvLink": "CV",
   "thanks": "Gracias por el tiempo, que tengas un buen día!😊",
-  "mealProject": "Servidor para el manejo de Comidas"
+  "mealProject": "Servidor para el manejo de Comidas",
+  "mealProjectText1": "Proyecto para el control",
+  "mealProjectText2": "del stock de las comidas",
+  "weatherProject": "Aplicacion para el Clima",
+  "weatherProjectText1": "Aplicacion de terminal para consultar el clima",
+  "weatherProjectText1": "Aplicacion de terminal para consultar el clima",
+  "weatherProjectText1": "Aplicacion de terminal para consultar el clima"
 }
 
