@@ -13,7 +13,7 @@ const Contact = () => {
         <div className="w-8 h-16 xl:mb-28 content-center xl:w-10 xl:h-20">
           <Link
             target="_blank"
-            to="https://github.com/TomQuintana?tab=repositories">
+            to="https://github.com/TomQuintana">
             <img 
               className="rounded hover:bg-gray-200"
               src={ github } 
