@@ -16,7 +16,13 @@
   "cv": "For more information you can find my cv in the upper left but anyway I attach it below",
   "cvLink": "CV",
   "thanks": "Thanks for the time, have a good day!😊",
-  "mealProject": "Meal Management Server"
+  "mealProject": "Meal Management Server",
+  "mealProjectText1": "Project for control",
+  "mealProjectText2": "the stock of meals",
+  "weatherProject": "Weather App",
+  "weatherProjectText1": "Terminal application to check the weather",
+  "cryptoProject": "Cryptocurrency Quote",
+  "cryptoProjectText1": "Project to consult the exchange of cryptocurrencies"
 }
 
 

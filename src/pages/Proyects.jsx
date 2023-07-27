@@ -42,7 +42,7 @@ const Proyects = () => {
             <h1 className='font-mono text-2xl text-blue-400'>
               {t('weatherProject')}
             </h1>
-            <h2>Terminal App for check Weather</h2>
+            <h2>{t('weatherProjectText1')}</h2>
           </div>
           <div className='flex justify-around mt-8'>
             <button className='w-24 p-1 bg-indigo-500 text-white uppercase rounded-xl hover:bg-indigo-600 mb-5'>
@@ -61,8 +61,8 @@ const Proyects = () => {
             src={blockchainLogo} alt="MiloComidas"/>
           </div>
           <div className='text-center font-mono'>
-            <h1 className='font-mono text-2xl text-blue-400'>Crypto Currency</h1>
-            <h2>Project to consult the exchange of cryptocurrencies</h2>
+            <h1 className='font-mono text-xl text-blue-400'>{t( 'cryptoProject' )}</h1>
+            <h2>{t('cryptoProjectText1')}</h2>
           </div>
           <div className='flex justify-around mt-8'>
             <button className='w-24 p-1 bg-indigo-500 text-white uppercase rounded-xl hover:bg-indigo-600 mb-5'>
