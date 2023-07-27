@@ -21,7 +21,8 @@ const TranslateSelect = () => {
             className='border-red-50'
             value="es"
           >ES</option>
-          <option value="en">EN</option>
+          <option 
+            value="en">EN</option>
         </select>
         <div>
           {language == 'es'? 
@@ -33,7 +34,7 @@ const TranslateSelect = () => {
             <img 
               src={iconEn} 
               alt="" 
-              className='w-44 md:w-3/4 rounded-2xl'
+              className='w-8 md:w-3/4 rounded-2xl'
             />}
         </div>
       </div>
